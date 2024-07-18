@@ -1,0 +1,54 @@
+.background-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
+  padding: 30px;
+}
+.image-size {
+  height: 75px;
+  width: 75px;
+}
+.emojis-container {
+  text-align: center;
+  background-color: #ffffff;
+  border-width: 0px;
+}
+.all-emojis {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 0px;
+  list-style-type: none;
+}
+.paragraph {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.loveimage-size {
+  height: 95px;
+  width: 100px;
+}
+.loveparagraph {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .inner-container {
+    width: 90%;
+  }
+}
